@@ -31,10 +31,16 @@
     'category': 'Localization',
     'author': 'Open-Net Sàrl',
     'depends': ['hr_payroll'],
-    'version': '0.0.1',
+    'version': '0.0.3',
     'description': """
 Swizerland Payroll Rules.
 =========================
+
+    * Salary rule categories
+    * Salary rules
+
+Changelog:
+
 
     """,
 
@@ -43,6 +49,7 @@ Swizerland Payroll Rules.
     'website': 'http://open-net.ch',
     'data':[
         'l10n_be_hr_payroll_data.xml',
+        'data/hr.salary.rule.csv',
     ],
     'installable': True
 }
