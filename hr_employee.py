@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 #
-#  File: __init__.py
+#  File: hr_employee.py
 #  Module: l10n_ch_hr_payroll
 #
 #  Created by sge@open-net.ch
 #
-#  Copyright (c) 2014-TODAY Open-Net Ltd. <http://www.open-net.ch>
+#  Copyright (c) 2014 Open-Net Ltd. All rights reserved.
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-TODAY OpenERP S.A. <http://www.openerp.com>
+#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -26,33 +26,15 @@
 #
 ##############################################################################
 
-{
-    'name': 'Switzerland - Payroll',
-    'category': 'Localization',
-    'author': 'Open-Net Sàrl',
-    'depends': ['hr_payroll'],
-    'version': '0.0.5',
-    'description': """
-Swizerland Payroll Rules.
-=========================
 
-    * Salary rule categories
-    * Salary rules
+from openerp.osv import fields,osv
+from openerp.tools.translate import _
 
-Changelog:
+class hr_employee(osv.osv):
+    _inherit = 'hr.employee'
+    _columns = {
+        'children': fields.integer('Number of Children at school'),
+        'children_student': fields.integer('Number of Children student'),
+        }
 
-
-    """,
-
-    'auto_install': False,
-    'demo': [],
-    'website': 'http://open-net.ch',
-    'data':[
-        'hr_contract_view.xml',
-        'hr_employee_view.xml',
-        'l10n_be_hr_payroll_data.xml',
-        'data/hr.salary.rule-change.csv',
-        'data/hr.salary.rule-new.csv',
-    ],
-    'installable': True
-}
+hr_employee()

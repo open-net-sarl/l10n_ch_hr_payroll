@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-#  File: project_issue.py
-#  Module: ons_productivity_project_issue
+#  File: hr_comtract.py
+#  Module: l10n_ch_hr_payroll
 #
 #  Created by sge@open-net.ch
 #
