@@ -31,7 +31,7 @@
     'category': 'Localization',
     'author': 'Open-Net Sàrl',
     'depends': ['hr_payroll'],
-    'version': '0.0.5',
+    'version': '1.0.0',
     'description': """
 Swizerland Payroll Rules.
 =========================
