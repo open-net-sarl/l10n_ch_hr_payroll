@@ -36,11 +36,23 @@
 Swizerland Payroll Rules.
 =========================
 
+**Features list :**
     * Salary rule categories
     * Salary rules
+    * Employee children in school
+    * Contract LPP range
 
-Changelog:
+**Author :** Open Net Sàrl   Industrie 59  1030 Bussigny  Suisse  http://www.open-net.ch
 
+**Contact :** info@open-net.ch
+
+**History :**
+
+V1.0: 2014-11-07/Sge
+    * Add Salary rule categories
+    * Add Salary rules
+    * Add Employee children in school
+    * Add Contract LPP range
 
     """,
 
