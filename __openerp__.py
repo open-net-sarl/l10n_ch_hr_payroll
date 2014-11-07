@@ -31,7 +31,7 @@
     'category': 'Localization',
     'author': 'Open-Net Sàrl',
     'depends': ['hr_payroll'],
-    'version': '0.0.3',
+    'version': '0.0.4',
     'description': """
 Swizerland Payroll Rules.
 =========================
@@ -48,8 +48,10 @@ Changelog:
     'demo': [],
     'website': 'http://open-net.ch',
     'data':[
+        'hr_contract_view.xml',
         'l10n_be_hr_payroll_data.xml',
-        'data/hr.salary.rule.csv',
+        'data/hr.salary.rule-change.csv',
+        'data/hr.salary.rule-new.csv',
     ],
     'installable': True
 }

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 #
-#  File: __init__.py
-#  Module: l10n_ch_hr_payroll
+#  File: project_issue.py
+#  Module: ons_productivity_project_issue
 #
 #  Created by sge@open-net.ch
 #
-#  Copyright (c) 2014-TODAY Open-Net Ltd. <http://www.open-net.ch>
+#  Copyright (c) 2014 Open-Net Ltd. All rights reserved.
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-TODAY OpenERP S.A. <http://www.openerp.com>
+#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -26,4 +26,14 @@
 #
 ##############################################################################
 
-import hr_contract
+
+from openerp.osv import fields,osv
+from openerp.tools.translate import _
+
+class hr_contract(osv.osv):
+    _inherit = 'hr.contract'
+    _columns = {
+        'lpp_rate': fields.float('LPP Rate'),
+        }
+
+hr_contract()
