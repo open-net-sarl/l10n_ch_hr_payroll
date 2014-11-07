@@ -27,8 +27,9 @@
 ##############################################################################
 
 
-from openerp.osv import fields,osv
-from openerp.tools.translate import _
+from openerp.osv import fields, osv
+From openerp.tools.translate import _
+
 
 class hr_contract(osv.osv):
     _inherit = 'hr.contract'

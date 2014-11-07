@@ -42,9 +42,11 @@ Swizerland Payroll Rules.
     * Employee children in school
     * Contract LPP range
 
-**Author :** Open Net Sàrl   Industrie 59  1030 Bussigny  Suisse  http://www.open-net.ch
+**Author :**
+Open Net Sàrl -Industrie 59 1030 Bussigny Suisse - http://www.open-net.ch
 
-**Contact :** info@open-net.ch
+**Contact :**
+info@open-net.ch
 
 **History :**
 
@@ -59,7 +61,7 @@ V1.0: 2014-11-07/Sge
     'auto_install': False,
     'demo': [],
     'website': 'http://open-net.ch',
-    'data':[
+    'data': [
         'hr_contract_view.xml',
         'hr_employee_view.xml',
         'l10n_be_hr_payroll_data.xml',
