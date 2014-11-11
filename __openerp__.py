@@ -37,10 +37,10 @@ Swizerland Payroll Rules.
 =========================
 
 **Features list :**
-    * Salary rule categories
-    * Salary rules
-    * Employee children in school
-    * Contract LPP range
+    * Add Swiss salary rule categories
+    * Add Swiss salary rules
+    * Add children in school to employee
+    * Add LPP range to contract
 
 **For functionnal information:**
 http://ur1.ca/ir5ou
