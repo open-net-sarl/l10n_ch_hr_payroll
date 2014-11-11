@@ -42,6 +42,9 @@ Swizerland Payroll Rules.
     * Employee children in school
     * Contract LPP range
 
+**For functionnal information:**
+http://ur1.ca/ir5ou
+
 **Author :**
 Open Net Sàrl -Industrie 59 1030 Bussigny Suisse - http://www.open-net.ch
 
