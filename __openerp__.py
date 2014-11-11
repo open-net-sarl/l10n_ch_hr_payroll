@@ -30,8 +30,8 @@
     'name': 'Switzerland - Payroll',
     'category': 'Localization',
     'author': 'Open-Net Sàrl',
-    'depends': ['hr_payroll'],
-    'version': '1.0.0',
+    'depends': ['decimal_precision','hr_payroll', 'hr_payroll_account'],
+    'version': '1.0.1',
     'description': """
 Swizerland Payroll Rules.
 =========================
@@ -50,11 +50,14 @@ info@open-net.ch
 
 **History :**
 
-V1.0: 2014-11-07/Sge
+V1.0.0: 2014-11-07/Sge
     * Add Salary rule categories
     * Add Salary rules
     * Add Employee children in school
-    * Add Contract LPP range
+    * Add Contract LPP rate
+
+V1.0.1: 2014-11-11/Sge
+    * Set the 'LPP rate'' digits to 'Payroll Rate' decimal accuracy
 
     """,
 

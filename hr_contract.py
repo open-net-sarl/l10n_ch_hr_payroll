@@ -28,13 +28,13 @@
 
 
 from openerp.osv import fields, osv
-From openerp.tools.translate import _
-
+from openerp.tools.translate import _
+import openerp.addons.decimal_precision as dp
 
 class hr_contract(osv.osv):
     _inherit = 'hr.contract'
     _columns = {
-        'lpp_rate': fields.float('LPP Rate'),
+        'lpp_rate': fields.float('LPP Rate', digits_compute=dp.get_precision('Payroll Rate')),
         }
 
 hr_contract()
