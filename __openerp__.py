@@ -70,7 +70,7 @@ V1.0.1: 2014-11-11/Sge
     'data': [
         'hr_contract_view.xml',
         'hr_employee_view.xml',
-        'l10n_be_hr_payroll_data.xml',
+        'l10n_ch_hr_payroll_data.xml',
         'data/hr.salary.rule-change.csv',
         'data/hr.salary.rule-new.csv',
     ],
